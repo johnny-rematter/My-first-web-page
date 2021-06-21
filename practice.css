@@ -1,0 +1,139 @@
+*{
+  box-sizing: border-box;
+}
+#test {
+  display: block;
+  height: 300px;  
+  width: auto;
+}
+
+a {
+text-decoration: underline;
+color: cadetblue;
+}
+
+.caja1 {
+  width: 50%;
+  height: 200px;
+  display: inline-block;
+  padding-right: 10px;
+  padding-left: 10px;
+  padding-top: 20px;
+  background: url(https://cdn5.vectorstock.com/i/1000x1000/79/24/make-up-and-beauty-fashion-background-vector-8837924.jpg);
+  opacity: 0.7;
+  color: black;
+}
+
+.caja2 {
+  width: 50%;
+  height: 200px;
+  float: right;
+  padding-right: 10px;
+  padding-left: 10px;
+  padding-top: 20px;
+  background-image: url(https://us.123rf.com/450wm/rawpixel/rawpixel1901/rawpixel190101039/126250785-colorful-memphis-design-background-vector.jpg?ver=6);
+  opacity: 0.6;
+  color: black;
+  
+}
+a:hover
+{
+  background-color: rgba(116, 240, 233, 0.932);
+}
+body{
+    background-image: url(https://img.freepik.com/vector-gratis/ola-texturas-vector-fondo-blanco_53876-60286.jpg?size=626&ext=jpg);  
+    background-size: 100%;
+    line-height: 1.5;
+    color: gray;
+    font-family: 'Benne', serif;
+    font-family: 'Quicksand', sans-serif;
+}
+
+#test2
+table, th, td {
+  border: 3px solid pink;
+  border-radius: 10px  25px;
+  margin: 500px
+}
+input:focus
+{
+  border-color: rgb(29, 175, 54);
+}
+
+ul li
+{
+  font-size: 17px;
+  font-weight: bold;
+}
+
+#test3 {
+  height: 50px;
+  width: 75%;
+  margin-top: 20px;
+  margin-left: 100px;
+}
+
+#test4 {
+  margin-left: 100px;
+}
+h2 {
+  font-weight: 500;
+  font-size: 30px;
+  background-color: pink;
+}
+
+.first {
+  background-color: pink;
+  width: 50%;
+  height:max-content;
+  display: inline-block;
+  padding-right: 10px;
+  padding-left: 10px;
+}
+.second {
+  background-color: rgb(187, 248, 248);
+  width: 50%;
+  height: max-content;
+  float: right;
+  padding-left: 10px;
+  padding-bottom: 9px;
+}
+
+
+@media screen and (max-width:800px) {
+  .first
+  .second {
+    width: 100%;
+    float:none
+  }
+}
+
+#image1 {
+  display: inline-block;
+  width: 25%; height: auto;
+  border-radius: 30px;
+  box-shadow: 15px 10px 15px darkgrey;
+  margin-left: 50px;
+}
+#image2 {
+  width: 25%; height: auto;
+  border-radius: 30px;
+  box-shadow: 15px 10px 15px darkgrey;
+  float: right;
+  margin-right:  43px;
+}
+#image3 {
+  width: 25%; height: auto;
+  border-radius: 30px;
+  box-shadow: 15px 10px 15px darkgrey;
+  float: right;
+  margin-right: 80px
+}
+
+img{
+  opacity: 0.8;
+transition: 0.5s opacity;
+}
+img:hover {
+  opacity: 1;
+}

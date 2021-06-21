@@ -1,0 +1,53 @@
+a {
+    text-decoration: none;
+    color: gray;
+    margin-right: 0.5%;
+    position: relative;
+}
+a:hover 
+{
+color: pink;
+}
+
+.principio {
+  margin: 100px 400px 200px 400px;
+}
+
+.caja1 {
+  display: inline-block;
+  background-color: pink;
+  width: 50%;
+  height: 240px;
+}
+.caja2 {
+  display: inline-block;
+  background-color: wheat;
+  width: 50%;
+  float: right;
+  height: 240px;
+}
+body {
+  background-image: url(https://thumbs.dreamstime.com/b/fondo-incons%C3%BAtil-del-dise%C3%B1o-de-la-cafeter%C3%ADa-modelo-estilizado-del-caf%C3%A9-55470923.jpg);
+  background-size: 100%
+  background-repeat: no-repeat;
+}
+
+
+.Box {
+  list-style-type: square;
+  display: inline-block;
+  background-image: url(https://i.pinimg.com/originals/11/8c/eb/118cebd15b5088ee41b83be4ef5f83de.png);
+  background-size: 20%;
+  width: 300px;
+  height: 175px;
+  padding-left: 20px;
+  margin-top: 20px;
+  margin-left: 150px;
+  overflow: hidden;
+  border-radius: 30px;
+  border: 5px solid pink;
+  box-shadow: 15px 15px 12px gray;
+  @media screen and (max-width: 800px){
+    width: 100%;
+    float: none;
+  }
